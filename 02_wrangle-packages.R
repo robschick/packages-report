@@ -7,6 +7,8 @@
 ## create a data frame by reading from data/installed-packages.csv
 ## hint: readr::read_csv() or read.csv()
 ## idea: try using here::here() to create the file path
+
+## Is this a slonk?
 library(readr)
 library(here)
 ipt <- read_csv(here("data", 'installed-packages.csv'))
